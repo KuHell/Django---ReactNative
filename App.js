@@ -1,7 +1,9 @@
 import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
-import {View} from 'react-native';
-import {Context, Provider} from './components/';
+import {NavigatorIOS, View} from 'react-native';
+// import {Context, Provider} from './components/';
+import {Context, Provider} from './components/globalContext/globalContext';
+import Navigator from './components/navigation/navigator';
 
 const App = props => {
   return (
