@@ -10,6 +10,7 @@ const landing = props => {
     <View>
       <Text>Hello! hi~</Text>
       <Text>You are {isLoggedIn ? '' : 'Not'} logged in</Text>
+      <Text>fsdfsdfsa</Text>
     </View>
   );
 };
